@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OakNIron - Custom Furniture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#portfolio">Our Work</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#order-tracking">Order Tracking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>OakNIron</h1>
+            <p>Custom Crafted Furniture, Built to Last</p>
+            <a href="#portfolio" class="cta">Browse Our Collection</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At OakNIron, we are passionate about creating beautiful, handcrafted furniture...</p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Our Work</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Project 1">
+            <img src="image2.jpg" alt="Project 2">
+            <img src="image3.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:info@oakniron.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OakNIron - Custom Furniture</p>
+    </footer>
+
+</body>
+</html>
